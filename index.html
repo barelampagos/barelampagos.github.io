@@ -1,52 +1,92 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Bryan Relampagos</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<!DOCTYPE html>
+<html lang="en">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Bryan Relampagos</h1>
-						<p>Aspiring Software Developer &nbsp;&bull;&nbsp; Technology Geek &nbsp;&bull;&nbsp; Computer Science Student</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/bryanrel" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.linkedin.com/pub/bryan-relampagos/83/557/a83" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/barelampagos" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://barelampagos.github.io/BryanRelampagosResume.pdf" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
-								<li><a href="mailto:barelampagos@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+    <title>Bryan Relampagos</title>
 
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/efd75aa873.js"></script>
+</head>
+
+<body>
+
+    <div class="header-bg">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Bryan Relampagos</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-9 col-sm-7 col-xs-7">
+                <h1>Hi! I'm Bryan.</h1>
+
+                <p>I'm a recent Computer Science graduate from the University of San Francisco. Ever since I can remember, I have been surrounded by computers. My passion for technology came from my parents, as they are both software engineers. In middle
+                    school, I would play around with HTML, designing websites and layouts in my free time. I would go on to take my first Computer Science course my junior year of highschool, and instantly fell in love with the idea of programming. In
+                    2012, I enrolled in the University of San Francisco, majoring in Computer Science.</p>
+                <p> USF has inspired me to enjoy tackling difficult challenges, and finding elegant solutions for them. I believe the true beauty of engineering is the fact that there is not one correct way to do things. Computer Science requires a person
+                    to think with both logic and creativity, and I think that is what keeps me excited about learning and experiencing more.</p>
+                <p> In my free time, I enjoy involving myself with hip hop dance. I have taught dance workshops, choreographed routines, and helped to direct the University of San Francisco's hip hop dance team, VarCity SF, as 2015-2016's Vice President.</p>
+            </div>
+            <div class="col-md-3 col-sm-5 col-xs-5">
+                <br>
+                <img class="img-responsive img-rounded" src="img/profile.png" alt="Bryan Relampagos">
+            </div>
+        </div>
+
+        <div class="contact">
+            <a href="https://twitter.com/bryanrel">
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/barelampagos">
+                <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/barelampagos">
+                <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:barelampagos@gmail.com">
+                <i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i>
+            </a>
+
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
