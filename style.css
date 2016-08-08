@@ -30,12 +30,13 @@ a.navbar-brand {
 .thumbnail {
   align: center;
   text-align: center;
-  height: 470px;
+  height: 500px;
 }
 
 .thumbnail img {
-    width: 300px;
-    height: auto;
+    padding: 10px;
+    width: 320px;
+    height: 180px;
 }
 
 .about {
