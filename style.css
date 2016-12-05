@@ -42,6 +42,7 @@ a.navbar-brand {
     height: 180px;
 }
 
-.about {
-  padding-bottom: 20px;
+.contact {
+    width: 200px;
+    margin: 0 auto;
 }
