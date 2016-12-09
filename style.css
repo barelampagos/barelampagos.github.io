@@ -43,6 +43,16 @@ a.navbar-brand {
 }
 
 .contact {
+    text-align: center;
     width: 200px;
     margin: 0 auto;
+}
+
+.divider {
+    border: 1px ridge lightgrey;
+    border-radius: 30px;
+}
+
+#education {
+    padding: 20px;
 }
